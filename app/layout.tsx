@@ -1,4 +1,5 @@
 import './globals.css'
+import Header from './components/header/header'
 
 export const metadata = {
   title: 'TAIL',
@@ -13,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body>
-        <div>TAIL</div>
+        <Header />
         <div>{children}</div>
       </body>
     </html>
